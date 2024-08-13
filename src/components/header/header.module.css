@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #563001;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 40px;
+    
+    padding: 20px 5px;
+    display: flex;
+    justify-content: center;
+    
+    text-shadow: 
+        0 0 5px #218079,
+        0 0 10px #218079,
+        0 0 20px #218079,
+        0 0 40px #218079,
+        0 0 50px #218079;
+}
+
+@media screen and (max-width: 475px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    .container {
+        gap: 10px;
+    }
+}

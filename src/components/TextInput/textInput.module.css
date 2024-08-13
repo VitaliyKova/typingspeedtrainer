@@ -1,0 +1,14 @@
+.hidden {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45%;
+    width: 95%;
+    opacity: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}

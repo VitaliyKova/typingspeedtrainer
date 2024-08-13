@@ -1,0 +1,74 @@
+.container {
+    padding: 0 10px;
+    max-width: 1240px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    box-shadow: 
+        0 0 3px #97ffe3, 
+        0 0 7px #97ffe3,
+        0 0 15px #97ffe3;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.position {
+    position: relative;
+    
+}
+
+.chars {
+    font-size: 28px;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+
+}
+
+.textCorrect {
+    color: #39ff14; 
+    text-shadow: 
+        0 0 5px #39ff14, 
+        0 0 10px #39ff14,
+        0 0 20px #39ff14,
+        0 0 40px #39ff14,
+        0 0 80px #39ff14;
+}
+
+.textIncorrect {
+    color: #ff073a;
+    text-shadow: 
+        0 0 5px #ff073a, 
+        0 0 10px #ff073a,
+        0 0 20px #ff073a,
+        0 0 40px #ff073a,
+        0 0 80px #ff073a;
+}
+
+.cursor {
+    position: absolute;
+    width: 2px;
+    height: 2rem; 
+    background-color: white;
+    box-shadow: 
+        0 0 5px #97ffe3, 
+        0 0 10px #97ffe3,
+        0 0 20px #97ffe3,
+        0 0 40px #97ffe3,
+        0 0 80px #97ffe3;
+    animation: blink 1s step-end infinite;
+    margin-left: -1px;
+    top: 0;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
